@@ -1,0 +1,454 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#left-content
+{
+    width: 18%;
+    background-color: #1992D4;
+    height: 100%;
+    color: #ffffff;
+    float: left;
+}
+
+#logo-icon
+{
+    width: 3.5rem;
+    margin: 10px 0px 0px 1.2rem;
+    
+}
+
+#dashboard
+{
+    font-size: 2rem;
+    margin: 10px 0px 0px 0.5rem;
+    font-weight: 550;
+}
+
+#left-content-header
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.list-svg
+{
+    width: 1.5rem;
+    margin-right: 10px;
+}
+
+#nav-list-top
+{
+    margin-top: 30px;
+}
+
+.nav-list-element-top
+{
+    font-weight: 560;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-left: 2.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#nav-list-bottom
+{
+    margin-top: 4.5rem;
+}
+
+.nav-list-element-bottom
+{
+    font-weight: 560;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-left: 2.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#top-content
+{
+    width: 82%;
+    height: 20%;
+    float: right;
+}
+
+#top-nav-content
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    height: 40%;
+}
+
+.nav-svg
+{
+    width: 1.5rem;
+    margin-left: 2rem;
+}
+
+
+input[type="text"]
+{
+    width: 45rem;
+    border-radius: 50px;
+    height: 1rem;
+    padding: 5px;
+    border: none;
+    background-color: #E2E8F0;
+    margin-left: 1.2rem;
+    margin-right: 10rem;
+}
+
+#profile-picture-top
+{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: url(image/profile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#name
+{
+    font-weight: 600;
+}
+
+#bottom-nav-content
+{
+    height: 60%;
+}
+
+#user-information
+{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#user-name-container
+{
+    width: 70%;
+}
+
+
+#profile-picture-bottom
+{
+    border-radius: 50%;
+    width: 5.7rem;
+    height: 5.7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: url(image/profile.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.user-name
+{
+    float: left;
+    width: 20rem;
+}
+
+#welcome
+{
+    font-size: 1rem;
+   margin-top: 1rem;
+}
+
+#profile-name
+{
+    font-weight: 600;
+    margin-top: 0.2rem;
+    font-size:1.5rem;
+}
+
+#buttons
+{
+    float: left;
+    width:  60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-nav-button
+{
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    background-color: #1992D4;
+    border: #BFE0F3 1px solid;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+}
+
+#main-content
+{
+    background-color: #E2E8F0;
+    width: 82%;
+    height: 80%;
+    float: left;
+}
+
+#left-main-content
+{
+    padding: 2%;
+    width: 60%;
+    height: 86.5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 1rem;
+    float: left;
+}
+
+#main-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 64%;
+    height: 5%;
+    font-weight: 600;
+    float: left;
+}
+
+#first-main-header
+{
+    margin-top: 1.4rem;
+    margin-right: 39rem;
+    font-size: 1.5rem;
+}
+
+.main-content-card
+{
+    border-radius: 15px;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.main-content-card::before
+{
+    content: "";
+    height: 100%;
+    width: 5%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: left;
+    background-color: #F0B429;
+}
+
+.card-content
+{
+    padding: 0.7rem 0px 0px 1.7rem;
+}
+
+.card-svg-icons-container
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card-svg-icons
+{
+    width: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.2rem;
+}
+
+#main-second-header
+{
+    width: 36%;
+    height: 5%;
+    float: right;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+#second-main-header
+{
+    font-size: 1.5rem;
+    margin-top: 1.4rem;
+    margin-left: 2rem;
+}
+
+#right-main-content
+{
+    float: right;
+    width: 36%;
+    height: 95%;
+}
+
+#right-main-content-top-block
+{
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 5%;
+    width: 60%;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.block-content
+{
+    margin-bottom: 1rem;
+}
+
+.block-content:last-child
+{
+    margin-bottom: 0rem;
+}
+
+.block-header
+{
+    margin-top: 1rem;
+}
+
+.block-header:first-child
+{
+    margin-top: 0rem;
+}
+
+#bottom-title
+{
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#right-main-content-bottom-block
+{
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 5%;
+    width: 60%;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.profile-img
+{
+    width: 1rem;
+    height: 1rem;
+}
+
+.profile-img-first
+{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    background: url(image/profile2.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.profile-img-second
+{
+    border-radius: 50%;
+    width: 3rem;
+    margin-top: 1rem;
+    height: 3rem;
+    margin-right: 1rem;
+    background: url(image/profile3.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.user-id
+{
+    float: left;
+    width: 60%;
+    font-weight: 600;
+}
+
+.user-title
+{
+    float: left;
+}
+
+#last-user-id
+{
+    margin-top: 1rem;
+}
+
+
+@media (max-width:1000px)
+{
+    #top-content
+    {
+        height: 12%;
+    }
+    #main-content
+    {
+        height: 88%;
+    }
+}
+
+@media (max-width:1400px)
+{
+    #left-main-content
+    {
+       grid-template-columns: repeat(2,1fr);
+       grid-template-rows: repeat(6,1fr);
+    }
+}
+
+
+@media (max-width:800px)
+{
+    #left-main-content
+    {
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(8,1fr);
+    }
+
+.card-content
+    {
+    margin-left: 2rem;
+    }
+
+}
+
+
+@media (max-width:500px)
+{
+    #left-main-content
+    {
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows: repeat(12,1fr);
+    }
+
+}
